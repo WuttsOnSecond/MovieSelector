@@ -3,4 +3,5 @@ JavaFX program that scrapes IMDB's top 250 list and randomly displays one to the
 
 Clicking **Select Random Movie** returns a hyperlink to a random film on IMDBs top 250 list.
 
-![Image output](https://drive.google.com/file/d/1CF-nZObhgcMVbcwT14-_Wy6HdDt7-ogY/view?usp=sharing)
+![Program output](https://drive.google.com/uc?export=view&id=1CF-nZObhgcMVbcwT14-_Wy6HdDt7-ogY)
+
