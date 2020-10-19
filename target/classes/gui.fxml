@@ -9,7 +9,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.wutt.movie.selector.FXController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.wutt.movie.selector.controller.FXController">
    <top>
       <Label text="Movie Selector" BorderPane.alignment="CENTER">
          <font>
@@ -29,7 +29,7 @@
       </Label>
    </top>
    <bottom>
-      <Button fx:id="selectBtn" mnemonicParsing="false" onAction="#onClick" text="Select Movie" BorderPane.alignment="CENTER">
+      <Button fx:id="selectBtn" mnemonicParsing="false" onAction="#onClick" text="Select Random Movie" BorderPane.alignment="CENTER">
          <BorderPane.margin>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </BorderPane.margin>

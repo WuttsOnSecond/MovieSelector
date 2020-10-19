@@ -1,15 +1,12 @@
 package dev.wutt.movie.selector;
 
+import dev.wutt.movie.selector.model.MovieScraper;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
-import java.util.List;
 
 public class Main extends Application {
 
@@ -18,7 +15,6 @@ public class Main extends Application {
         MovieScraper topFilms = new MovieScraper();
 
         primaryStage.setTitle("Movie Selector");
-        primaryStage.initStyle(StageStyle.UTILITY);
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui.fxml"));
         BorderPane pane = loader.<BorderPane>load();
 

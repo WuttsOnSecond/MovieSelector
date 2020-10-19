@@ -1,4 +1,4 @@
-package dev.wutt.movie.selector;
+package dev.wutt.movie.selector.model;
 
 import java.awt.*;
 import java.util.Random;
